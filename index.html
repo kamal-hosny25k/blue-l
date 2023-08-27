@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Text Animation</title>
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font aswwom -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalizw.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css 5 ">
+    <link rel="icon" href="img/snowed-mountains.png">
+  </head>
+  <body>
+    <!-- Start nav   -->
+    <nav>
+      <div class="vav-bar">
+        <i class="fa-solid fa-bars sideberOpen"></i>
+        <span class="logo navLogo"><a href="#">CodingLab</a></span>
+        
+        <div class="menu">
+          <div class="logo-toggle">
+            <span class="logo"><a href="#">CodingLab</a></span>
+            <i class="fa-solid fa-x siderbarClose"></i>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portofolio</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="darkLight-searchBox">
+          <div class="dark-light">
+            <i class="fa-solid fa-moon moon"></i>
+            <i class="fa-solid fa-sun sun"></i>
+          </div>
+
+          <div class="searchBox">
+            <div class="searchToggle">
+              <i class="fa-solid fa-x cancel"></i>
+              <i class="fa-solid fa-magnifying-glass search "></i>
+
+            </div>
+              <div class="search-field">
+                <input type="text" placeholder="search...">
+                <i class="fa-solid fa-magnifying-glass "></i>
+              </div>
+            </div>
+        </div>
+
+      </div>
+    </nav>
+    <!-- End nav   -->
+    <!-- Start color switcher -->
+    <div onclick="activeColor()" class="color-switcher">
+      <div class="switcher-btn">
+        <i class="fa-solid fa-gear"></i>
+    </div>
+    <h3>select color</h3>
+    <div class="theme-buttons-container">
+        <span class="theme-buttons" data-color=" #8e44ad" style="background: #4070F4;"></span>
+        <span class="theme-buttons" data-color=" #2980b9" style="background: #2980b9"></span>
+        <span class="theme-buttons" data-color=" #f39c12" style="background: #f39c12;"></span>
+        <span class="theme-buttons" data-color=" #27ae60" style="background: #27ae60;"></span>
+        <span class="theme-buttons" data-color=" #ea2027" style="background: #ea2027;"></span>
+        <span class="theme-buttons" data-color=" #e84393" style="background: #e84393;"></span>
+        <span class="theme-buttons" data-color=" #ff4757" style="background: #ff4757;"></span>
+        <span class="theme-buttons" data-color=" #ffc312" style="background: #ffc312;"></span>
+        <span class="theme-buttons" data-color=" #17c0eb" style="background: #17c0eb;"></span>
+    </div>
+    </div>
+    <!-- End color switcher -->
+    <!-- Start silder -->
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel">
+          <!-- 1 -->
+          <li class="card">
+              <div class="img"><img src="img/Bastard München/Noel Noa .jpeg" alt="" dragging="false"></div>
+              <h2> Noel Noa </h2>
+              <span>Master Striker</span>
+          </li>
+          <!-- end 1 -->
+          <!-- 2 -->
+          <li class="card">
+              <div class="img"><img src="img/Bastard München/Michael Kaiser.jpeg" alt="" dragging="false"></div>
+              <h2> Michael Kaiser </h2>
+              <span>Striker</span>
+          </li>
+          <!-- end 2 -->
+          <!-- 3 -->
+          <li class="card">
+              <div class="img"><img src="img/Bastard München/Alexis Ness .jpeg" alt="" dragging="false"></div>
+              <h2> Alexis Ness </h2>
+              <span>Striker</span>
+          </li>
+          <!-- end 3 -->
+          <!-- 4 -->
+          <li class="card">
+              <div class="img"><img src="img/Bastard München/Ranze Kurona.jpeg" alt="" dragging="false"></div>
+              <h2> Ranze KuronaNoel Noa </h2>
+              <span>Master Striker</span>
+          </li>
+          <!-- end 4 -->
+          <!-- 5 -->
+          <li class="card">
+              <div class="img"><img src="img/Bastard München/Kunigami .jpeg" alt="" dragging="false"></div>
+              <h2> Rensuke Kunigami  </h2>
+              <span>Striker</span>
+          </li>
+          <!-- end 5 -->
+          <!-- 6 -->
+          <li class="card">
+              <div class="img"><img src="img/Bastard München/Yoichi Isagi.jpeg" alt="" dragging="false"></div>
+              <h2> Yoichi Isagi </h2>
+              <span>Striker</span>
+          </li>
+          <!-- end 6 -->
+          <!-- 7 -->
+          <li class="card">
+              <div class="img"><img src="img/Bastard München/Gin Gagamaru.jpeg" alt="" dragging="false"></div>
+              <h2> Gin Gagamaru </h2>
+              <span>Striker</span>
+          </li>
+          <!-- end 7 -->
+          <!-- 8 -->
+          <li class="card">
+              <div class="img"><img src="img/Bastard München/Jingo Raichi .jpeg" alt="" dragging="false"></div>
+              <h2> Jingo Raichi </h2>
+              <span>Striker</span>
+          </li>
+          <!-- end 8 -->
+          <!-- 9 -->
+          <li class="card">
+              <div class="img"><img src="img/Bastard München/Ranze Kurona.jpeg" alt="" dragging="false"></div>
+              <h2> Ranze Kurona </h2>
+              <span>Striker</span>
+          </li>
+          <!-- end 9 -->
+          <!-- 10 -->
+          <li class="card">
+              <div class="img"><img src="img/Bastard München/Yo Hiori.png" alt="" dragging="false"></div>
+              <h2> Yo Hiori </h2>
+              <span>Striker</span>
+          </li>
+          <!-- end 10 -->
+          <!-- 11 -->
+          <li class="card">
+              <div class="img"><img src="img/Bastard München/Kenyu Yukimiya.jpeg" alt="" dragging="false"></div>
+              <h2> Kenyu Yukimiya </h2>
+              <span>Striker</span>
+          </li>
+          <!-- end 11 -->
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+  </div>
+    <!-- End silder -->
+    <script src="main.js"></script>
+  </body>
+</html>
+
+21:23
